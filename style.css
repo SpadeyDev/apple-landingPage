@@ -267,9 +267,9 @@ height: 100vh;
  
 .pods-prod {
     display: flex;
-    justify-content: center; /* Yatayda ortalar */
-    align-items: center; /* Dikeyde ortalar */
-    height: 130vh; /* Örnek olarak 300px yükseklik */
+    justify-content: center; 
+    align-items: center;
+    height: 130vh;
 }
 
 .img {
