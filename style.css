@@ -26,10 +26,9 @@ height: 100vh;
     --gray-dark: #E2E2E2;
     --text-white:#fff;
     --text-dark:#000;
-
   }
 
-  /* navbar */
+  /* Menu Bar */
 
   nav {
     display: flex;
@@ -89,7 +88,6 @@ height: 100vh;
   
 
   .nav-btn:after {
-    content: " ";
     width: 0%;
     height: 100%;
     background-color: var(--btn-color);
@@ -132,7 +130,7 @@ height: 100vh;
     animation: scaleUp 0.3s ease-in-out;
     
   }
-  
+  /* Alıntıdır. */
   @keyframes scaleUp {
     0% {
       transform: scale(1);
@@ -148,7 +146,7 @@ height: 100vh;
   }
 
 
-  /* Main Page */
+  /* Landing Page */
 
 
 .main-page h1{
@@ -169,128 +167,3 @@ height: 100vh;
     pointer-events: none;
 
 }
-
-.buy-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-    flex-direction: column;
-    background: linear-gradient(to bottom, #D9D9D9, #E3E3E3); 
-height: 100vh;
-
-}
-.one {
-    margin-left: 2rem;
-}
-
-
-.two {
-    display: flex;
-    margin-top: 5rem;
-}
-
-.one-menu {
-    width: 270px;
-    height: 420px;
-    border: 1px solid #000; 
-    border-radius: 10px; 
-    background-color: #E3E3E3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    margin-left: 4rem;
-    transition: transform 0.3s ease; 
-}
-
-.one-menu:hover {
-    transform: translateY(-10px) rotate(-3deg);
-}
-
-.one-menu a {
-    width: 120px;
-    height: 50px;
-    background-color: var(--text-dark);
-    display: inline-block; 
-    line-height: 30px; 
-    color: var(--text-white); 
-    text-decoration: none; 
-    border-radius: 50px;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-
-.two-menu {
-    width: 270px;
-    height: 420px;
-    border: 1px solid #000; 
-    border-radius: 10px; 
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    margin-left: 4rem;
-    transition: transform 0.3s ease; 
-}
-
-.two-menu:hover {
-    transform: translateY(-10px) rotate(-3deg);
-}
-
-.two-menu a {
-    width: 120px;
-    height: 50px;
-    background-color: var(--text-white);
-    display: inline-block; 
-    line-height: 30px; 
-    color: var(--text-dark); 
-    text-decoration: none; 
-    border-radius: 50px;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
- 
-.pods-prod {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    height: 130vh;
-}
-
-.img {
-margin-top: 30%;
-margin-left: 4rem;
-position: absolute;
-animation: flyAnimation 2s ease-in-out infinite;
-pointer-events: none;
-}
-
-.chat-bar {
-position: relative;
-}
-
-
-@keyframes flyAnimation {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
